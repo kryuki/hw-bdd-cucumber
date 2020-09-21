@@ -26,12 +26,10 @@ Scenario: sort movies alphabetically
   #When I follow "Movie Title"
   # your steps here
   When I follow "Movie Title"
-  Then I should see "Aladdin" before "Amelie"
-  #Then I should see "2001: A Space Odyssey" before "Aladdin"
+  Then I should see "2001: A Space Odyssey" before "Aladdin"
 
 Scenario: sort movies in increasing order of release date
   #When I follow "Release Date"
   # your steps here
   When I follow "Release Date"
-  Then I should see "The Terminator" before "Aladdin"
-  #Then I shuld see "2001: A Space Odyssey" before "Amelie"
+  Then I should see "The Terminator" before "Amelie"
